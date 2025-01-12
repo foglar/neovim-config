@@ -4,13 +4,13 @@
     vimAlias = true;
 
     spellcheck = {
-      enable = true;
+      enable = false;
     };
 
     lsp = {
       formatOnSave = true;
       lspkind.enable = false;
-      lightbulb.enable = true;
+      lightbulb.enable = false;
       lspsaga.enable = false;
       trouble.enable = true;
       lspSignature.enable = true;
