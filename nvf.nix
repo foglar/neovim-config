@@ -14,9 +14,9 @@
       lspsaga.enable = false;
       trouble.enable = true;
       lspSignature.enable = true;
-      #otter-nvim.enable = isMaximal;
-      #lsplines.enable = isMaximal;
-      #nvim-docs-view.enable = isMaximal;
+      #otter-nvim.enable = true;
+      #lsplines.enable = true;
+      #nvim-docs-view.enable = true;
     };
 
     debugger = {
@@ -208,7 +208,7 @@
     };
 
     presence = {
-      neocord.enable = false;
+      neocord.enable = true;
     };
   };
 }
