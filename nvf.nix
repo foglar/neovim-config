@@ -20,9 +20,9 @@
       lspsaga.enable = false;
       trouble.enable = true;
       lspSignature.enable = true;
-      #otter-nvim.enable = true;
-      #lsplines.enable = true;
-      #nvim-docs-view.enable = true;
+      otter-nvim.enable = false;
+      lsplines.enable = false;
+      nvim-docs-view.enable = false;
     };
 
     debugger = {
@@ -33,7 +33,6 @@
     };
 
     # This section does not include a comprehensive list of available language modules.
-    # To list all available language module options, please visit the nvf manual.
     languages = {
       enableLSP = true;
       enableFormat = true;
